@@ -20,10 +20,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" href="#">Administrator</a>
+            <a class="nav-link active" href="../admin/index.php">Administrator</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">Doctor</a>
+            <a class="nav-link active" href="../doctor/index.php">Doctor</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active" href="#">Patient</a>

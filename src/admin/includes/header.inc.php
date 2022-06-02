@@ -23,10 +23,10 @@
             <a class="nav-link active" href="#">Administrator</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">Doctor</a>
+            <a class="nav-link active" href="../doctor/index.php">Doctor</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active" href="#">Patient</a>
+            <a class="nav-link active" href="../patient/index.php">Patient</a>
             </li>
         </ul>
         </div>
