@@ -15,7 +15,7 @@ include_once "includes/header.inc.php";
         }
     ?>
     
-    <form>
+    <form action="process/login.proc.php" method="POST"> 
         <div class="mb-3">
             <label class="form-label">Username</label>
             <input name="admin-username" type="text" class="form-control">
