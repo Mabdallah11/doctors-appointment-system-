@@ -19,6 +19,7 @@ include_once "includes/header.inc.php";
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="admin-login" class="btn btn-primary">Sign up</button>
     </form>
 </div>
 

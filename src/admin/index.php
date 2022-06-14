@@ -24,6 +24,7 @@ include_once "includes/header.inc.php";
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input name="admin-password" type="password" class="form-control" id="exampleInputPassword1"><br>
         <button type="submit" name="admin-login" class="btn btn-primary">login</button>
+        <button type="submit" name="admin-login" class="btn btn-primary">Sign up</button>
     </form>
 </div>
 

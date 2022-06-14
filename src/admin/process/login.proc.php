@@ -1,6 +1,8 @@
 <?php
-    require_once("connect.php");
-    require_once("../../config/connect.php");
+    //require_once("connect.php");
+    require_once("../../../config/connect.php");
+    //require_once("../../config/connect.php");
+    //require_once("/config/connect.php");
 
     createDatabase();
     createDoctorsTable();
