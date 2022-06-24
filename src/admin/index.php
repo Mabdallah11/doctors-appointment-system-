@@ -15,7 +15,7 @@ include_once "includes/header.inc.php";
         }
     ?>
     
-    <form action="process/login.proc.php" method="POST"> 
+   <form action="../admin/views/register.php" method="POST"> 
         <div class="mb-3">
             <label class="form-label">Username</label>
             <input name="admin-username" type="text" class="form-control">
@@ -24,7 +24,7 @@ include_once "includes/header.inc.php";
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input name="admin-password" type="password" class="form-control" id="exampleInputPassword1"><br>
         <button type="submit" name="admin-login" class="btn btn-primary">login</button>
-        <button type="submit" name="admin-login" class="btn btn-primary">Sign up</button>
+        <button input type="submit" name="admin-sign-up" class="btn btn-primary">Sign up</button>
     </form>
 </div>
 

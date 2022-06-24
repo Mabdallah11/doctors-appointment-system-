@@ -1,14 +1,13 @@
 <?php
     $isEmpty = FALSE;
 
-    function connect($databaseName = FALSE){
-        $hostname = "localhost";
+    function connect(){
+        $hostname = "localhost:3306";
         $username = "root";
         $password = "";
-        $databaseName = "Doctors_Appointment_System";
-
-    
-        $conn = $databaseName? :new mysqli($hostname, $username, $password);
+        $databaseName = "doctors_appointment_system";
+        $conn = new mysqli($hostname, $username, $password, $databaseName);
+        print_r($conn);
         if($conn->connect_error){
             die("Not connected: ".$conn->connect_error);
         }
